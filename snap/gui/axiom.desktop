@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=1.4.35
+Encoding=UTF-8
+Name=Castle
+Icon=${SNAP}/castle128.png
+MimeType=x-scheme-handler/castle;
+Exec=castle %u
+Terminal=false
+Categories=Office;Finance;
+Comment=Castle P2P Cryptocurrency
+Keywords=internet;castle;
+Name[de_AT]=castle.desktop
