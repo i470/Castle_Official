@@ -42,5 +42,5 @@ More information at [castle.com](http://www.castle.com/) Visit our ANN thread at
 <table>
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes & Stakers</th><th>Budget</th>
 <tr><td>Phase 1</td><td>1002-10000</td><td>0 CSTL</td><td>75% (0 CSTL) & 25% (0 CSTL) respectively</td><td>0% (0 CSTL)</td></tr>
-<tr><td>Phase 2</td><td>10001-ToBeSet</td><td>3.8 CSTL</td><td>75% (2.85 CSTL) & 25% (0.95 CSTL) respectively</td><td>0% (0 CSTL)</td></tr>
+<tr><td>Phase 2</td><td>10001-ToBeSet</td><td>8% CSTL</td><td>75% (2.85 CSTL) & 25% (0.95 CSTL) respectively</td><td>0% (0 CSTL)</td></tr>
 </table>
