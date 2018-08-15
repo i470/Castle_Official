@@ -63,7 +63,7 @@ script:
     - ./configure --cache-file=config.cache $AXIOM_CONFIG_ALL $AXIOM_CONFIG || ( cat config.log && false)
     - make distdir PACKAGE=castle VERSION=$HOST
     - cd castle-$HOST
-    - ./configure --cache-file=../config.cache $CASTLE_CONFIG_ALL $AXIOM_CONFIG || ( cat config.log && false)
+    - ./configure --cache-file=../config.cache $AXIOM_CONFIG_ALL $AXIOM_CONFIG || ( cat config.log && false)
     - make $MAKEJOBS $GOAL || ( echo "Build failure. Verbose build follows." && make $GOAL V=1 ; false )
     - export LD_LIBRARY_PATH=$TRAVIS_BUILD_DIR/depends/$HOST/lib
     - if [ "$RUN_TESTS" = "true" ]; then travis_wait 30 make $MAKEJOBS check VERBOSE=1; fi
