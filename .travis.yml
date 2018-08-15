@@ -74,7 +74,7 @@ after_script:
 deploy:
   provider: gcs
   access_key_id: GOOG2RLZ2EHQOGSMOVKT5UPV
-  secret_access_key: awF9BhScTnRGY18HrpmW/eMfOV+Qyt281gPMOfMc
+  secret_access_key: 0qFCfMlavK72FB/2F7rrm6tVmMucGUP/6rXv8MQK
   bucket: castle-builds
   skip_cleanup: true
   acl: public-read
