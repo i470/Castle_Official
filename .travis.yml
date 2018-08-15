@@ -71,15 +71,6 @@ script:
 after_script:
     - echo $TRAVIS_COMMIT_RANGE
     - echo $TRAVIS_COMMIT_LOG
-deploy:
-  provider: gcs
-  access_key_id: GOOG2RLZ2EHQOGSMOVKT5UPV
-  secret_access_key: 0qFCfMlavK72FB/2F7rrm6tVmMucGUP/6rXv8MQK
-  bucket: castle-builds
-  skip_cleanup: true
-  acl: public-read
-  on:
-    repo: growaleaf/Castle_Official
 after_success:
     - chmod +x $TRAVIS_BUILD_DIR/contrib/travis-artifacts/collect-artifacts.sh
     - $TRAVIS_BUILD_DIR/contrib/travis-artifacts/collect-artifacts.sh $TRAVIS_BUILD_DIR $OUTDIR build $TRAVIS_COMMIT $HOST
