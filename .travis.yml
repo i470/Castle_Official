@@ -73,7 +73,7 @@ after_script:
     - echo $TRAVIS_COMMIT_LOG
 deploy:
   provider: gcs
-  access_key_id: GOOG3AT4RITNPJGFWUXPIQKA
+  access_key_id: GOOG2RLZ2EHQOGSMOVKT5UPV
   secret_access_key: awF9BhScTnRGY18HrpmW/eMfOV+Qyt281gPMOfMc
   bucket: castle-builds
   skip_cleanup: true
