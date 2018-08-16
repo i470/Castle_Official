@@ -23,7 +23,7 @@ ZIPFILES=$(ls $OUTDIR/bin/* || true)
        zip -uj $RELEASEDIR/castle-$COMMIT-$HOST.zip ${ZIPFILES}
 
 # MaxOSX artifacts
-cp -a WAGERR-Core.dmg $RELEASEDIR || true
+cp -a CASTLE-Core.dmg $RELEASEDIR || true
 
 # Windows artifacts
 cp -a castle-*-win*-setup.exe $RELEASEDIR || true
