@@ -80,3 +80,12 @@ after_success:
     - tar -cvzf package-$HOST.tgz build
     - export SSHPASS=$DEPLOY_PASS
     - sshpass -p $DEPLOY_PASS rsync -avz -e "ssh -o StrictHostKeyChecking=no" $TRAVIS_BUILD_DIR/package-$HOST.tgz  $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/
+deploy:
+  provider: gcs
+  access_key_id: GOOG3AT4RITNPJGFWUXPIQKA
+  secret_access_key: awF9BhScTnRGY18HrpmW/eMfOV+Qyt281gPMOfMc
+  bucket: castle-builds
+  skip_cleanup: true
+  acl: public-read
+  on:
+    repo: growaleaf/happymeals
