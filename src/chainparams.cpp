@@ -214,7 +214,7 @@ public:
 
     CBitcoinAddress GetDevFundAddress() const
     { 
-        return CBitcoinAddress("CNpkLLdauEJYN9zH3xvKBNfeknhmVBVE8c"); 
+        return CBitcoinAddress("PYmqJx7iMAAh4NgYHnaWB3RX8r3RYNzagJ"); 
     }
     
     const Checkpoints::CCheckpointData& Checkpoints() const
