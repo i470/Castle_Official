@@ -126,7 +126,7 @@ public:
         nDevFundPercent = 10;                  // Dev fund 10%
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 1001;                  // PoW Phase  End
+        nLastPOWBlock = 1050;                  // PoW Phase  End
         nModifierUpdateBlock = 1100;            // Modify block on height
         nZerocoinStartHeight = 1500;            // Zerocoin start height
         nZerocoinStartTime = 1534807872;        // GMT: Sunday 29 July 2018 23:49:51
